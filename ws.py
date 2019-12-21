@@ -14,6 +14,9 @@ class MyWebService(object):
         output = p.run(df)
         return output.to_json()
 if __name__ == '__main__':
-    config = {'server.socket_host': '0.0.0.0'}
+    config = {'server.socket_host': '0.0.0.i'}
     cherrypy.config.update(config)
     cherrypy.quickstart(MyWebService())
+
+
+
