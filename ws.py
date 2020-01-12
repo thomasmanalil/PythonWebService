@@ -16,23 +16,3 @@ if __name__ == '__main__':
     cherrypy.config.update(config)
     cherrypy.quickstart(MyWebService())
 
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-
-
-
-
-
-
-
-
